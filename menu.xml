@@ -1,0 +1,38 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui">
+	<ribbon>
+		<tabs>
+			<tab id="customTab" label="场道工具" insertAfterMso="TabHelp">
+				<group id="gongGongGroup" label="公共">
+					<button id="gongGongButton1" label="生成目录" size="large" onAction="生成工作表目录" imageMso="Bold" />
+					<button id="gongGongButton2" label="更新数据源" size="large" onAction="更新数据源" imageMso="Italic" />
+					<button id="gongGongButton3" label="删除空行" size="large" onAction="删除要素表空行" imageMso="Underline" />
+					<button id="gongGongButton4" label="编码分组" size="large" onAction="编码与分组" imageMso="Underline" />
+					<button id="gongGongButton5" label="汇总计算" size="large" onAction="汇总计算" imageMso="Underline" />
+					<button id="gongGongButton6" label="更新配合比" size="large" onAction="更新配合比" imageMso="Underline" />
+					<button id="gongGongButton7" label="统一主题" size="large" onAction="统一主题颜色" imageMso="Underline" />
+					<button id="gongGongButton8" label="生成对比" size="large" onAction="生成对比表" imageMso="Underline" />
+				</group> 
+				<group id="yuSuanGroup" label="预算">
+					<button id="yuSuanButton1" label="新建预算" size="large" onAction="新建预算" imageMso="Bold" />
+					<button id="yuSuanButton2" label="匹配成本" size="large" onAction="匹配成本项" imageMso="Italic" />
+					<button id="yuSuanButton3" label="设置格式" size="large" onAction="设置格式" imageMso="Underline" />
+					<button id="yuSuanButton4" label="删成本项" size="large" onAction="删成本项" imageMso="Underline" />
+					<button id="yuSuanButton5" label="算含钢量" size="large" onAction="计算分项含钢量" imageMso="Underline" />
+				</group>
+				<group id="yueBaoGroup" label="月报">
+					<button id="yueBaoButton1" label="新建月报" size="large" onAction="新建月报" imageMso="Bold" />
+					<button id="yueBaoButton2" label="导入预算" size="large" onAction="导入预算数据" imageMso="Italic" />
+					<button id="yueBaoButton3" label="设置公式" size="large" onAction="设置月报公式" imageMso="Underline" />
+					<button id="yueBaoButton4" label="更新下拉" size="large" onAction="更新下拉列表" imageMso="Underline" />
+				</group>
+				<group id="suanLiangGroup" label="算量">
+					<button id="suanLiangButton1" label="新建计算表" size="large" onAction="新建计算表" imageMso="Bold" />
+					<button id="suanLiangButton2" label="添加数据" size="large" onAction="添加数据" imageMso="Italic" />
+					<button id="suanLiangButton3" label="反查数据" size="large" onAction="反查数据" imageMso="Underline" />
+					<button id="suanLiangButton4" label="求面积" size="large" onAction="绘图求面积" imageMso="Underline" />
+					<button id="suanLiangButton5" label="设比例" size="large" onAction="设图形比例" imageMso="Underline" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
