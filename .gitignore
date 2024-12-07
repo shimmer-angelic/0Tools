@@ -1,0 +1,11 @@
+# 忽略特定文件
+.ssh.rar
+
+# 忽略特定目录
+mydirectory/
+
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .temp 文件和文件夹
+*.temp
