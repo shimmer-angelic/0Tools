@@ -1,0 +1,5 @@
+'Tab补全关键词每行一个。第一个空格前的文本(不能有各种符号)为关键词，可以有中文。\r表示换行。
+If If True Then\r\rEnd If\r
+For For i=1 To 10\r\rNext\r
+lastrow ActiveSheet.Range("A:A").Find(What:="*", LookIn:=xlFormulas, SearchOrder:=xlByRows, SearchDirection:=xlPrevious).Row\r
+lastcol ActiveSheet.Range("1:1").Find(What:="*", LookIn:=xlFormulas, SearchOrder:=xlByRows, SearchDirection:=xlPrevious).Column\r

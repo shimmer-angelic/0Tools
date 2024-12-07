@@ -1,0 +1,26 @@
+'自定义关键词每行一个！
+ADODB.Stream
+ADODB.Recordset
+ADODB.Connection
+htmlfile
+Scripting.Dictionary
+Scripting.FileSystemObject
+Shell.Application
+Microsoft.XMLHTTP
+Msxml2.XMLHTTP
+Msxml2.XMLHTTP.6.0
+Msxml2.ServerXMLHTTP
+Msxml2.ServerXMLHTTP.6.0
+WinHttp.WinHttpRequest.5.1
+WScript.Shell
+Option Explicit||模块所有过程中强制声明每一个变量
+Option Base 0||声明模块内数组下标的缺省下界为从0开始。对Array或ParamArray不起作用。
+Option Base 1||声明模块内数组下标的缺省下界为从1开始。对Array或ParamArray不起作用。
+Option Private Module||模块中的代码为私有
+Option Compare Binary||声明字符串比较时的缺省比较方法为Binary（默认），区分大小写 
+Option Compare Text||声明字符串比较时的缺省比较方法为Text，不区分大小写 
+Option Compare Database||声明字符串比较时的缺省比较方法为Database 
+Option Base 1||声明数组下标的缺省下界，在模块级别中使用
+On Error Resume Next||忽略过程内的执行错误
+On Error GoTo||发生错误时，跳转到过程内的指定语句标签或行号
+On Error GoTo 0||禁用当前过程中的任何已启用的错误处理程序,恢复正常的错误提示
