@@ -11,6 +11,7 @@
 					<button id="gongGongButton6" label="更新配合比" size="normal" onAction="更新配合比"  />
 					<button id="gongGongButton7" label="统一主题" size="normal" onAction="统一主题颜色"  />
 					<button id="gongGongButton8" label="生成对比" size="normal" onAction="生成对比表"  />
+					<button id="gongGongButton9" label="拆分到行" size="normal" onAction="拆分到行"  />
 				</group> 
 				<group id="yuSuanGroup" label="预算">
 					<button id="yuSuanButton1" label="新建预算" size="normal" onAction="新建预算"  />
