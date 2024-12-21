@@ -3,7 +3,7 @@
 		<tabs>
 			<tab id="customTab" label="场道工具箱" insertAfterMso="TabHelp">
 				<group id="gongGongGroup" label="公共">
-					<button id="gongGongButton1" label="生成目录" size="normal" onAction="生成工作表目录"  />
+					<button id="gongGongButton1" label="生成目录" size="normal" onAction="生成工作表目录" getSupertip="插入一个目录工作表，表中为工作簿中所有表的超链接"  />
 					<button id="gongGongButton2" label="更新数据源" size="normal" onAction="更新数据源"  />
 					<button id="gongGongButton3" label="删除空行" size="normal" onAction="删除要素表空行"  />
 					<button id="gongGongButton4" label="编码分组" size="normal" onAction="编码与分组"  />
